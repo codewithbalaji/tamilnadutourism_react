@@ -1,0 +1,51 @@
+.tindent {
+  text-indent: 60px;
+  text-align: justify;
+}
+
+.card-body p {
+  text-indent: 0;
+}
+
+.modalz {
+  z-index: 9;
+}
+
+.cardz {
+  z-index: 999;
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .cardz {
+    z-index: 0;
+  }
+  .modalz {
+    z-index: 0;
+  }
+}
+@media (max-width: 578px) {
+  .cardz {
+    z-index: 0;
+  }
+  .modalz {
+    z-index: 0;
+  }
+}
+@media (max-width: 320px) {
+  .cardz {
+    z-index: 0;
+  }
+  .modalz {
+    z-index: 0;
+  }
+}

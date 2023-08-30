@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <Navbar
       expand="lg"
-      className="navbar navbar-expand-md navbar-light  fixed-top "
+      className="navbar navbar-expand-md navbar-light  "
       style={{ backgroundColor: '#c9c5c3' }}
     >
       <Container>
@@ -26,7 +26,7 @@ const Navigation = () => {
             <Nav.Link className="text-white fw-bold" href="/placetovisit">
               Place To visit
             </Nav.Link>
-            <Nav.Link className="text-white fw-bold" href="/Besttimetovisit">
+            <Nav.Link className="text-white fw-bold" href="/besttimetovisit">
               Best Time To Visit
             </Nav.Link>
             <Nav.Link className="text-white fw-bold" href="/packages">

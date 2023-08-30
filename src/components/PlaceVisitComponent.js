@@ -5,7 +5,7 @@ const PlaceVisitComponent = () => {
   return (
     <div className="mt-5">
       {placeVisitCompData.map(place => (
-        <div key={place.image} style={{ marginTop: '20px' }}>
+        <div key={place.id} style={{ marginTop: '20px' }}>
           <div className="text-center">
             <h3>{place.location}</h3>
             <h3>{place.title}</h3>
